@@ -33,19 +33,19 @@ int main ()
 		
     setlocale(LC_ALL, "Portuguese");
     setColor(RED);
-    // MÛdulo de venda
+    // M√≥dulo de venda
 	printf("\t\t\t\t\t\tMICKEY & DONALD'S\n\n");
 	setColor(BLUE);
     printf ("\n\n \t\t\t\tBem vindo ao Drive Thru do Mickey & Donald's\n\n");
     do {
-    	printf("\n\n FaÁa seu pedido\n\n");
+    	printf("\n\n Fa√ßa seu pedido\n\n");
     	setColor(WHITE);
     	printf ("\n 0. SAIR \n");
 		printf ("\n 1. Hamburguer Vinicilia....................................R$%0.2f\n");
 		printf ("\n 2. Hamburguer Arturlicia...................................R$%0.2f\n");
 		printf ("\n 3. Hamburguer Joaolobomau..................................R$%0.2f\n");
 			setColor(GREEN);
-		printf ("\n\tOpÁ„o escolhida:\t");
+		printf ("\n\tOp√ß√£o escolhida:\t");
 		
 		scanf("%i", &opcao);
 		
@@ -76,13 +76,13 @@ int main ()
 						scanf ("%d", &quantidade);
 						break;
 						
-			default: 	printf ("CÛdigo inexistente");
+			default: 	printf ("C√≥digo inexistente");
 						return 0;}
 						
-	printf ("Deseja continuar comprando? 1 pra sim e 2 pra n„o\n");
+	printf ("Deseja continuar comprando? 1 pra sim e 2 pra n√£o\n");
 	scanf ("%d", &escolha);
 }while (escolha==1);
-	printf ("O preÁo total È %d", precototal);
+	printf ("O pre√ßo total √© %d", precototal);
 }
 
 
